@@ -34,7 +34,6 @@ h1 {
 .complete {
     text-decoration: line-through;
     opacity: 0.4;
-    background: red;
 }
 
 .todo-form {
@@ -62,7 +61,7 @@ h1 {
     cursor: pointer;
     outline: none;
     background: linear-gradient(90deg,
-            rgba(93, 12, 255, 1) 0%,
+            rgb(54, 3, 155) 0%,
             rgba(155, 0, 250, 1) 100%);
     color: #fff;
     text-transform: capitalize;
