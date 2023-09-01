@@ -28,24 +28,26 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
     }
 
     return todos.map((todo, index) => (
-        <div
-            className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
-            key={index}
-        >
-            <div className="todo-container"
-                key={todo.id}
-                onClick={() => completeTodo(todo.id)}
+        <div className='todo-container'>
+            <div
+                className={todo.isComplete ? 'todo-row complete' : 'todo-row'}
+                key={index}
             >
-                {todo.text}
-            </div>
+                <div className="todo-container"
+                    key={todo.id}
+                    onClick={() => completeTodo(todo.id)}
+                >
+                    {todo.text}
+                </div>
 
-            <div className='icons'>
-                <RiCloseCircleLine className='delete-icon'
-                    onClick={() => removeTodo(todo.id)}
-                />
-                <TiEdit className='edit-icon'
-                    onClick={() => setEdit({ id: todo.id, value: todo.text })}
-                />
+                <div className='icons'>
+                    <RiCloseCircleLine className='delete-icon'
+                        onClick={() => removeTodo(todo.id)}
+                    />
+                    <TiEdit className='edit-icon'
+                        onClick={() => setEdit({ id: todo.id, value: todo.text })}
+                    />
+                </div>
             </div>
         </div>
     ));
