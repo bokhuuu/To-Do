@@ -7,7 +7,7 @@ To-Do app
 - mark complete/cross out the todo items
 ## Project Link and Screenshot  
 [Go Live]()  
-![Screenshot](src/Screenshot from 2023-09-01 15-07-07.png)
+![Screenshot](Screenshot from 2023-09-01 15-07-07.png)
 ## Technologies Used  
 React  
 - useState
