@@ -6,8 +6,8 @@ todo-app
 - edit todo item
 - mark complete/cross out the todo items
 ## Project Link and Screenshot  
-[Go Live]()  
-![Screenshot](src/assets/Screenshot from 2023-09-01 15-07-07.png)
+[Go Live](https://todo-app-deployed.netlify.app/)  
+![Screenshot](src/assets/todo.png)
 ## Technologies Used  
 React  
 - useState
