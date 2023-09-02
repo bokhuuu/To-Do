@@ -1,5 +1,5 @@
 ## Project Name 
-To-Do app
+todo-app
 ## General 
 - add todo item
 - remove todo item
