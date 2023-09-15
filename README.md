@@ -8,7 +8,7 @@ Features:
 
 ## Link and Screenshot  
 [Go Live](https://todo-app-deployed.netlify.app/)  
-![Screenshot](https://github.com/bokhuuu/todo-app.git)
+![Screenshot](assets/todo.png)
 
 ## Installation
 Clone this repository:  
