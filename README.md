@@ -6,8 +6,20 @@ Features:
 - Mark todo items as complete
 - Delete todo items
 
-## Project Link and Screenshot  
+## Link and Screenshot  
 [Go Live](https://todo-app-deployed.netlify.app/)  
+![Screenshot](https://github.com/bokhuuu/todo-app.git)
+
+## Installation
+Clone this repository:  
+git clone https://github.com/bokhuuu/todo-app.git
+
+Install the dependencies:  
+npm install
+
+Start the development server:  
+npm run dev  
+The calculator app will be available at http://localhost:5173. 
 
 ## Contributing  
 Contributions are welcome! Please feel free to open an issue or submit a pull request if you have any suggestions or improvements.
